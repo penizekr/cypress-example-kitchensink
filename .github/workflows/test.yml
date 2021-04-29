@@ -17,6 +17,6 @@ jobs:
           echo hello > path/to/artifact/world.txt
       - name: Cypress run
         uses: cypress-io/github-action@v2
-        with:
-          build: npm run build
+        #with:
+          #build: npm run build
           #start: npm start
